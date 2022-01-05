@@ -17,8 +17,24 @@
         }
         const [sum1,sub1,div1,mul1]=fun1(34,45);
         console.log(sum1,div1,sub1,mul1);
-        
-        
+        let vehicals={
+            car:{
+                name:"honda",
+                color:"white"
+            },
+            truck:{
+                name:"bullZee",
+                color:"prime optimus"
+            }
+        }
+        showingCars(vehicals)
+
+        function showingCars({car:{name}}){
+            console.log(name);
+        }
+
+
+
         
     </script>
 </body>
